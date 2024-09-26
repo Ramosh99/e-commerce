@@ -26,6 +26,7 @@ const policies = {
   ],
 }
 
+
 module.exports = Object.entries(policies)
   .map(([key, value]) => {
     if (Array.isArray(value)) {
