@@ -6,7 +6,7 @@ const app = express();
 // Initialize Payload
 payload.init({
   secret: process.env.PAYLOAD_SECRET,
-  mongoURL: process.env.MONGODB_URI,
+  mongoURL: process.env.DATABASE_URI,
   express: app,
 });
 
